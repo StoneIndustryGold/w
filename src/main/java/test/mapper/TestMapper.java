@@ -1,5 +1,9 @@
 package test.mapper;
 
-public interface TestMapper {
+import java.util.List;
 
+import test.model.TestModel;
+
+public interface TestMapper {
+	List<TestModel> FinAll();
 }
